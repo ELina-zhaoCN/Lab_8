@@ -1,0 +1,9 @@
+# Goal
+float32 max_duration_sec
+---
+# Result
+bool aruco_found
+geometry_msgs/PoseStamped aruco_pose
+---
+# Feedback
+float32 elapsed_sec
