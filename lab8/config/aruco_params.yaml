@@ -1,0 +1,8 @@
+# ArUco 立方体参数（真机）
+aruco_detector:
+  ros__parameters:
+    marker_size_m: 0.10
+    aruco_dict: "DICT_4X4_1000"
+    image_topic: "/oakd/rgb/preview/image_raw"
+    camera_info_topic: "/oakd/rgb/preview/camera_info"
+    min_detections: 3
